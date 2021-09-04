@@ -7,6 +7,29 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Steps To Use This Project
+First download this project -> git clone https://github.com/shuvamdnk/Online-Exam-System-Using-Laravel.git
+<br>
+composer install 
+<br>
+create .env file
+<br>
+Create Database
+<br>
+add database details in .env file
+<br>
+Import database majorproject.sql inside database folder
+<br>
+run command -> php artisan key:generate
+<br>
+run command -> php artisan storage:link
+<br>
+run command -> php artisan serve
+<br>
+open url in browser -> http://127.0.0.1:8000/
+    
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
