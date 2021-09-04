@@ -1,0 +1,95 @@
+.aa-input-container {
+  display: inline-block;
+  position: relative;
+}
+.aa-input-search {
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 16px;
+  border:none;
+  outline: none;
+}
+ 
+.aa-search-btn{
+  border:1px solid #4ED57B;
+  outline: none;
+  width: 43px;
+  height: 40.5px;
+  margin-right: 8px;
+  background-color: #4ED57B;
+  color: #ffff;
+  font-size: 18px;
+  cursor:pointer;
+}
+.aa-input-search::-webkit-search-decoration, .aa-input-search::-webkit-search-cancel-button,
+.aa-input-search::-webkit-search-results-button, .aa-input-search::-webkit-search-results-decoration {
+    display: none;
+}
+.aa-input-icon {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  fill: #e4e4e4;
+  pointer-events: none;
+}
+.aa-dropdown-menu {
+  background-color: #fff;
+  border: 1px solid rgba(228, 228, 228, 0.6);
+  margin-top: 10px;
+  box-sizing: border-box;
+ background-image: url('https://laravel.com/img/icons/algolia.min.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-bottom: 20px;
+  width:100%;
+
+}
+.aa-suggestion {
+  padding: 10px;
+  cursor: pointer;
+}
+.aa-suggestion:hover {
+  background-color: #FFE9E9;
+}
+.aa-suggestions-category {
+  /*border-bottom: 1px solid rgba(228, 228, 228, 0.6);
+  border-top: 1px solid rgba(228, 228, 228, 0.6);*/
+  color: #F82750;
+  border:none;
+  padding: 6px 12px;
+}
+.aa-dropdown-menu > div {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+
+.aa-suggestion span:first-child em, .aa-suggestion span:last-child em {
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgba(13, 63, 206, 0.1); 
+  padding: 2px 0 2px 2px;
+}
+
+
+.aa-empty {
+  padding: 6px 12px;
+}
+
+#s_roll{
+  float: right;
+  color: red;
+  font-size: 12px;
+  
+}
+
+#s_name{
+  /*font-weight: bold;*/
+  color: #4EA8D5;
+  font-family: arial;
+}
+
